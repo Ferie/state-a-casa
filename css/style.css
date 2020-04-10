@@ -1,0 +1,65 @@
+
+
+body {
+    background: #000;
+    font-family: 'Raleway', 'Montserrat', sans-serif;
+    color: #fff;
+}
+
+h1 {
+    font-size: 300px;
+    margin: auto;
+}
+
+a {
+    font-size: 12px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.page {
+    margin: auto;
+    text-align: center;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: transparent;
+    line-height: 1.15;
+    text-align: center;
+    height: 32px;
+}
+
+/* CUSTOM BROWSER SCROLLBAR */
+/* Chrome, Safari, Edge 79+ */
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #f8d9d9;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #f1aeae;
+}
+
+
+html {
+    scrollbar-color: #f8d9d9 transparent;
+    scrollbar-width: thin;
+    overflow-x: hidden;
+}
