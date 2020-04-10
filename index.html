@@ -1,4 +1,5 @@
-<html lang="it">
+<!doctype html>
+<html>
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,28 +10,27 @@
         <meta property="og:type" content="website">
         <meta property="og:url" content="">
         <meta property="og:site_name" content="State a casa">
-        <meta property="og:image" content="">
-        <meta property="og:image:secure_url" content="">
+        <meta property="og:image" content="/assets/images/casa.png">
+        <meta property="og:image:secure_url" content="/assets/images/casa.png">
         <meta property="og:image:type" content="image/png">
-        <meta property="og:image:width" content="1200">
-        <meta property="og:image:height" content="630">
+        <meta property="og:image:width" content="512">
+        <meta property="og:image:height" content="512">
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:title" content="State a casa">
         <meta name="twitter:description" content="Cosa fare quando in giro c'è la pandemia globale? Questo sito nasce solo per strappare una risata in un periodo non felice per chiunque a causa del coronavirus che causa la malattia COVID-19">
-        <meta name="twitter:image" content="">
+        <meta name="twitter:image" content="/assets/images/casa.png">
         <meta name="robots" content="index, nofollow">
-        <link rel="icon" href="favicon.ico">
         <link rel="stylesheet" type="text/css" href="css/style.css">
-        <script>
-            document.body.style.background = '#' + (Math.random() * 0xFFFFFF << 0).toString(16);
-        </script>
         <link rel="canonical" href="">
     </head>
 
     <body>
         <main class="page">
             <header class="header">
-                <h1>STATE A CASA</h1>
+                <h1>
+                    <span class="row">STATE <span>A</span></span>
+                    <span class="row">CASA</span>
+                </h1>
             </header>
 
             <footer class="footer">
@@ -39,6 +39,12 @@
             </footer>
         </main>
 
+        <script>
+            document.body.style.backgroundColor = "#" +  Math.floor(Math.random() * 16777215).toString(16);;
+        </script>
+        <script type="text/javascript">
+            var userLang = navigator.languages ? navigator.languages[0] : (navigator.language || navigator.userLanguage)
+        </script>
         <!-- TO-DO Global site tag (gtag.js) - Google Analytics -->
         <!-- <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
         <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-161585834-1"></script>
