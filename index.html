@@ -44,12 +44,94 @@
     <body>
         <main class="page">
             <header class="header">
-                <h1>
+                <h1 lang="it">
                     <span class="row">
-                        STATE
-                        <span>A</span>
+                        State
+                        <span>a</span>
                     </span>
-                    <span class="row">CASA</span>
+                    <span class="row">casa</span>
+                </h1>
+                <h1 lang="en">
+                    <span class="row">
+                        Stay
+                        <span>at</span>
+                    </span>
+                    <span class="row">home</span>
+                </h1>
+                <h1 lang="es">
+                    <span class="row">
+                        Quédate
+                        <span>en</span>
+                    </span>
+                    <span class="row">casa</span>
+                </h1>
+                <h1 lang="de">
+                    <span class="row">
+                        Wir
+                        <span>Bleiben</span>
+                    </span>
+                    <span class="row">Zuhause</span>
+                </h1>
+                <h1 lang="fr">
+                    <span class="row">
+                        Restez
+                        <span>à la</span>
+                    </span>
+                    <span class="row">maison</span>
+                </h1>
+                <h1 lang="pt">
+                    <span class="row">
+                        fica
+                        <span>em</span>
+                    </span>
+                    <span class="row">casa</span>
+                </h1>
+                <h1 lang="pl">
+                    <span class="row">
+                        zostajesz
+                        <span>w</span>
+                    </span>
+                    <span class="row">domu</span>
+                </h1>
+                <h1 lang="el">
+                    <span class="row">
+                        μένουν
+                        <span>στο</span>
+                    </span>
+                    <span class="row">σπίτι</span>
+                </h1>
+                <h1 lang="tr">
+                    <span class="row">evde</span>
+                    <span class="row">kal</span>
+                </h1>
+                <h1 lang="ru">
+                    <span class="row">оставайся</span>
+                    <span class="row">дома</span>
+                </h1>
+                <h1 lang="ja">
+                    <span class="row">
+                        家にいる
+                    </span>
+                </h1>
+                <h1 lang="zh">
+                    <span class="row">
+                        待在家里
+                    </span>
+                </h1>
+                <h1 lang="ko">
+                    <span class="row">
+                        집에있어
+                    </span>
+                </h1>
+                <h1 lang="hi">
+                    <span class="row">
+                        तुम घर पर रहो
+                    </span>
+                </h1>
+                <h1 lang="ar">
+                    <span class="row">
+                        البقاء في المنزل
+                    </span>
                 </h1>
             </header>
 
@@ -60,10 +142,58 @@
         </main>
 
         <script>
-            document.body.style.backgroundColor = "#" +  Math.floor(Math.random() * 16777215).toString(16);;
-        </script>
-        <script type="text/javascript">
-            var userLang = navigator.languages ? navigator.languages[0] : (navigator.language || navigator.userLanguage)
+            /* Random background */
+            document.body.style.backgroundColor = "#" +  Math.floor(Math.random() * 16777215).toString(16);
+
+            /* Tranlation */
+            var userLang = navigator.languages ? navigator.languages[0] : (navigator.language || navigator.userLanguage);
+            switch (userLang.substring(0, 2)) {
+                case 'it':
+                    document.querySelector('h1[lang=it]').style.display = "block";
+                    break;
+                case 'es':
+                    document.querySelector('h1[lang=es]').style.display = "block";
+                    break;
+                case 'de':
+                    document.querySelector('h1[lang=de]').style.display = "block";
+                    break;
+                case 'fr':
+                    document.querySelector('h1[lang=fr]').style.display = "block";
+                    break;
+                case 'pt':
+                    document.querySelector('h1[lang=pt]').style.display = "block";
+                    break;
+                case 'pl':
+                    document.querySelector('h1[lang=pl]').style.display = "block";
+                    break;
+                case 'el':
+                    document.querySelector('h1[lang=el]').style.display = "block";
+                    break;
+                case 'tr':
+                    document.querySelector('h1[lang=tr]').style.display = "block";
+                    break;
+                case 'ru':
+                    document.querySelector('h1[lang=ru]').style.display = "block";
+                    break;
+                case 'ja':
+                    document.querySelector('h1[lang=ja]').style.display = "block";
+                    break;
+                case 'zh':
+                    document.querySelector('h1[lang=zh]').style.display = "block";
+                    break;
+                case 'ko':
+                    document.querySelector('h1[lang=ko]').style.display = "block";
+                    break;
+                case 'hi':
+                    document.querySelector('h1[lang=hi]').style.display = "block";
+                    break;
+                case 'ar':
+                    document.querySelector('h1[lang=ar]').style.display = "block";
+                    break;
+                default:
+                    document.querySelector('h1[lang=en]').style.display = "block";
+                    break;
+            }
         </script>
         <!-- TO-DO Global site tag (gtag.js) - Google Analytics -->
         <!-- <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>

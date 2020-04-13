@@ -24,8 +24,9 @@ body {
 }
 
 h1 {
+    display: none;
     font-size: 20vw;
-    margin: 0;
+    letter-spacing: 6px;
     text-transform: uppercase;
 }
 
@@ -80,7 +81,7 @@ a:hover {
     background: #f1aeae;
 }
 
-
+/* Firefox */
 html {
     scrollbar-color: #f8d9d9 transparent;
     scrollbar-width: thin;
