@@ -25,9 +25,45 @@ body {
 
 h1 {
     display: none;
-    font-size: 20vw;
+    font-size: 22vw;
     letter-spacing: 6px;
     text-transform: uppercase;
+}
+
+h1[lang="ru"] {
+    font-size: 14vw;
+}
+
+h1[lang="de"],
+h1[lang="fr"],
+h1[lang="el"] {
+    font-size: 15vw;
+}
+
+h1[lang="pl"] {
+    font-size: 16vw;
+}
+
+h1[lang="hi"] {
+    font-size: 18vw;
+}
+
+h1[lang="es"],
+h1[lang="ar"] {
+    font-size: 20vw;
+}
+
+h1[lang="pt"] {
+    font-size: 23vw;
+}
+
+h1[lang="ja"],
+h1[lang="zh"] {
+    font-size: 24vw;
+}
+
+h1[lang="ko"] {
+    font-size: 28vw;
 }
 
 .row {
@@ -36,6 +72,45 @@ h1 {
 }
 
 @media (orientation: portrait) {
+    h1[lang="pl"] {
+        font-size: 10vw;
+    }
+
+    h1[lang="de"] {
+        font-size: 14vw;
+    }
+
+    h1[lang="es"] {
+        font-size: 15vw;
+    }
+
+    h1[lang="ru"] {
+        font-size: 10vw;
+    }
+
+    h1[lang="el"] {
+        font-size: 17vw;
+    }
+
+    h1[lang="fr"] {
+        font-size: 18vw;
+    }
+
+    h1[lang="ja"],
+    h1[lang="zh"] {
+        font-size: 22vw;
+    }
+
+    h1[lang="ko"],
+    h1[lang="ar"] {
+        font-size: 24vw;
+    }
+
+    h1[lang="hi"],
+    h1[lang="tr"] {
+        font-size: 26vw;
+    }
+
     .row span {
         display: block;
     }
