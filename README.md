@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/08b4c521-6ba7-4b36-a280-55f8d901d629/deploy-status)](https://app.netlify.com/sites/state-a-casa/deploys)
+
 # State a casa
 
 This is a multi language exercise I did during the big lockdown of 2020.
@@ -7,6 +9,8 @@ This is a multi language exercise I did during the big lockdown of 2020.
 This HTML page is showing full screen, the message "Stay at home" depending on the main language of your broser.
 
 The message is responsive (mobile, portrait and landscape resolutions, and desktop resolutions) and the background randomly changes every time the page is reloaded.
+
+You can see it in action [here](https://state-a-casa.netlify.app/).
 
 ## Available languages
 
